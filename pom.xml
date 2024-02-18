@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.ramiro</groupId>
-    <artifactId>demoFunctional</artifactId>
+    <artifactId>demoJavaFunctional</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>demoFunctional</name>
-    <description>demoFunctional</description>
+    <description>Exemplo de aplicação em Java usando Closure</description>
     <properties>
         <java.version>17</java.version>
     </properties>
