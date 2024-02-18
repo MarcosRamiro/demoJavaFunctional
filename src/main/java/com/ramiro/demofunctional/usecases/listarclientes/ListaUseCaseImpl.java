@@ -14,7 +14,7 @@ public class ListaUseCaseImpl implements ListarUseCase {
     }
 
     @Override
-    public List<String> execute() {
+    public List<String> listar() {
         return repo.toList();
     }
 }

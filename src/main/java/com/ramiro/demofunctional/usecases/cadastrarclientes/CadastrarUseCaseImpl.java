@@ -14,7 +14,7 @@ public class CadastrarUseCaseImpl implements CadastrarUseCase {
     }
 
     @Override
-    public String execute(String nome) {
+    public String cadastrar(String nome) {
         repo.cadastrar(nome.toLowerCase());
         return CADASTRO_EFETUADO_COM_SUCESSO;
     }

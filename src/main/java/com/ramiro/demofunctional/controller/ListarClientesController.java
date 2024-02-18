@@ -22,7 +22,7 @@ public class ListarClientesController {
 
     @GetMapping
     public List<String> listar(){
-        return this.useCase.execute();
+        return this.useCase.listar();
     }
 
 }

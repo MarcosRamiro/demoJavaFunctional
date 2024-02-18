@@ -22,7 +22,7 @@ public class CadastrarClientesController {
 
     @PostMapping
     public String cadastrar(@RequestBody RequestCadastro req){
-        return this.useCase.execute(req.nome());
+        return this.useCase.cadastrar(req.nome());
     }
 }
 

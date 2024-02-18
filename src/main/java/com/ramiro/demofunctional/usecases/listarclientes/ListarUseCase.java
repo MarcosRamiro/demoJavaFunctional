@@ -4,5 +4,5 @@ import java.util.List;
 
 @FunctionalInterface
 public interface ListarUseCase {
-    List<String> execute();
+    List<String> listar();
 }
