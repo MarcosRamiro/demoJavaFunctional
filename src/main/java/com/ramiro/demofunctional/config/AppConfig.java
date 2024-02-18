@@ -12,6 +12,13 @@ import java.util.Set;
 @Configuration
 public class AppConfig {
 
+    /**
+     * Exemplo de Closure.
+     * A variável Set<String> DB faz parte da classe AppConfig
+     * porém ela é usada (closure) na função lambda retornada palas funções abaixo:
+     * - createCadastrarClienteRepo
+     * - createListarClientesRepo
+     */
     private final Set<String> DB = new LinkedHashSet<>();
 
     @Bean
